@@ -8,6 +8,7 @@ Creating my first HTML page
 
 Added CSS
 
-
 [Version 3](https://dairemcsherry.github.io/women-in-design/index-three.html)
+
+Thrid and final version  
 
