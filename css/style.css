@@ -168,7 +168,7 @@ table, td {
 
 
 img {
-    display: block;
+    display: absolute;
     margin: 2rem 0 2rem 0;
     padding: 0;
     max-width: 100%;
