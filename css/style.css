@@ -1,279 +1,253 @@
+/*-- CSS Reset --*/
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+/*-- Start main styling --*/
+
 body {
-    background: #f7f7f7;
-    color: #333;
-    font-family: 'Fira Sans', sans-serif; }
+    background:  rgb(252, 237, 222);
+    color: #333333;
+    font-family: baskerville-urw, serif;
+}
 
 section, header {
     width: 80%;
-    max-width: 800px;
-    margin: auto;}
+    max-width: 600px; 
+    margin: auto; 
+}
+
+section, header {
+    margin-bottom: 2rem;
+}
+
+p, blockquote { 
+    padding: .5rem 0;
+    line-height: 1.3;
+}
+h1, h2 {
+    color: rgb(83, 41, 0);
+}
+
+h1 {
+    font-size: 5.653rem;
+    margin-top: 5rem;
+    padding-bottom: 0;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.999rem;
+    margin: 1rem 0 1rem 0;
+    font-weight: bold;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.5rem;
+    color: rgb(116, 58, 0);
+    hanging-punctuation: first;
+    text-indent: 0.7rem;
+}
+
+blockquote cite {
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.leader {
+    font-weight: bolder;
+}
+
+/*- Styling Links --*/
+a {
+    color: rgb(116, 58, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(83, 41, 0);
+    border-bottom: 1px dotted;
+}
 
 
 
-img { 
+/*-- Navigation --*/
+
+nav {
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #44210d61;
+    padding: 1.5rem 0;
+    font-size: 0.75;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;
+}
+
+nav a {
+    color: rgb(255, 227, 199);
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: #84430A;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.gridimage {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.dark {
+    background: #ba9677;
+    padding: 3rem;
+    margin-top: -3.5rem;
+
+}
+
+/*-- Styling table --*/
+table {
+    margin:auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2rem;
+    width: 100%;
+
+}
+
+caption {
+    margin: 1.5em 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+th {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    color: #f7f7f7;
+    background:rgb(90, 45, 0) ;
+
+}
+
+th, td{
+    padding: 0.4em;
+
+}
+
+table, td {
+    background:rgb(252, 237, 222);
+    border: 2px solid rgb(72, 35, 0) ;
+}
+
+/*-- images --*/
+
+
+
+img {
     display: block;
     margin: 2rem 0 2rem 0;
     padding: 0;
     max-width: 100%;
 }
 
-.topimg { 
+.topimage {
     margin: 0;
 }
 
 hr {
     margin: 50px 0;
     height: 2px;
-    background-color:#c2c2c2 (90, 45, 0);
-    boder: 0;
-}  
-
-.mainimg {
-    margin : 4em auto ;
-}
-.kernloose {letter-spacing: 5px;}
-.imgbtm {margin-bottom: 4rem;}
-
-.topimg {
-    margin-top: 0;
-    margin-bottom: 4rem;
+    background-color: rgb(90, 45, 0);
+    color: rgb(90, 45, 0);
+    border: 0;
 }
 
-/*---- Styling typography ---*/
-h1, h2, blockquote {
-    color: #B24704; 
-    font-family: 'Merriweather', serif;
-}
-
-p, blockquote {
-    line-height: 1.5;
-    margin-bottom: 1.5rem;
-}
-
-h1 {
-    font-size: 5.063rem;
-    color: #333;
-    font-weight: normal;
-    margin: 2rem 0 1rem 0;
-    text-shadow: 2px 2px 4px #E46211;
-    }
-
-h2 {
-    font-size: 2rem;
-    margin: 3rem 0 2rem 0;
-}
-
-blockquote {
-    font-size: 1.75rem;
-    font-style: italic;
-    margin: 0;
-    hanging-punctuation: first;
-    text-indent: -0.75rem;
-}
-
-cite {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: #333;
-    font-style: normal;
-}
-
-header h2 {
-    font-size: 2.75rem;
-    font-style: italic;
-    font-family: 'Fira Sans', sans-serif;
-    margin-top: 0;
-    margin-bottom: 1.5rem;
-}
-
-header p {
-    font-size: 1.4rem;
-    margin-bottom: 8rem;
-}
-
-.leader {
-    text-transform: uppercase;
-}
-
-.dropcap {
-    font-family: 'Merriweather', serif;
-    float: left;
-    line-height: 55%;
-    width: .7em;
-    font-size: 400%;
-    color: #B24704; 
-}
-
-
-
-/*-- Stying links ---*/
-a {
-    color: #B24704;
-   text-decoration: none;
-}
-a:hover {
-    color: #333;
-    border-bottom: 1px dotted;
-}
-
-/*--- SET UP A RSPONSIVE NAV --*/
-
-.responsivenav {
-    background: #B24704;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-    
-
-#logo {     
-    font-size: 1.5rem;
-    color: #f7f7f7;
-    font-family: 'Merriweather', serif;
-    padding-left: 32px; }
-
-nav {display: flex;
-    padding: 2rem 0;
-    font-size: 0.8rem;}
-
-nav ul {
-        text-align: right;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        list-style-type: none; 
-        padding-right: 64px;
-        }
-
-nav ul li {
-    display: inline;
-    margin: 10px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    margin: 0 10px;}
-
-nav a:hover {
-    border-bottom: none;
-    transition: all 0.3s ease-in-out;}
-
-/*-- ALIGN IMAGES HORIZONTALLY --*/
-
-.imgsmall {
-    max-width: 800px;
-    margin: auto;
-    padding: 40px 0;
-    display: grid;
-    grid-gap: 20px;
-  
-  /*------------ TO CREATE A THREE COLUMN GRID REDUCE 375PX TO 250PX -----------*/  
-  grid-template-columns: repeat(auto-fill, minmax(375px, 1fr)) ; 
-  }
-/*-- STYLING SCHER SECTION --*/
-
-.dark {
-    background: #B24704;
-    color: #f7f7f7;
-    padding: 6rem 0;
-}
-
-.dark h2, blockquote, cite {
-    color: #f7f7f7;
-}
-
-.dark a {
-    color: #f7f7f7;
-    font-weight: bold;
-    border-bottom: 1px dotted;
-}
-
-.list ul{
-    line-height: 1.5;
-    margin-left: 0;
-}
-
-.list li {
-    margin-bottom: 1rem;
-    list-style-type: none;
-    margin-left: -2.5rem; 
-}
+/*-- styling in footer --*/
 
 
 footer {
-    background: #333;
+    background: #44210d61;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     color: #f7f7f7;
-    padding: 4rem 0}
-
-footer p {
-    margin: 0 12rem;}
-
-footer a {
-    color: #f9b082;}
-
-footer a:hover {
-    color: #f7f7f7;
-    transition: all 0.3s ease-in-out;
-}
-
-.connections{
-    position: relative;
-    margin: 0 auto;}
+    padding: 4em 0 3em 0
+    }
     
-.connections ul{
+    footer p {
+    width: 80%;
+    margin: auto;
+    }
+    
+    .connections{
+    position: relative;
+    margin: 0 auto;
+    }
+    .connections ul{
     margin: 0;
-    padding: 0;}
-
-.connections li{
+    padding: 0;
+    }
+    .connections li{
     margin: 0 10px;
     padding: 0;
     list-style: none;
-    display: inline-block;  }
-
-.connections a:link{
-        border-bottom: none;       }
-
-.connections img, .connections svg{
-    border: none;}
-
-.connections a:hover img, .connections a:hover svg{
+    display: inline-block;
+    }
+    .connections a:link{
+    border-bottom: none;
+    }
+    .connections img,
+    .connections svg{
+    border: none;
+    }
+    .connections a:hover img,
+    .connections a:hover svg{
     border-bottom: none;}
-      
- .connections svg {
-    margin: 2rem auto;}
-      
-.connections a:hover svg path {
-    fill: #333;
+    .connections svg {
+    margin: 1em auto;}
+    .connections a:hover svg path {
+    fill: #44210d61;
     transition: all 0.2s ease-in-out;}
-      
-footer .connections a:hover svg path {
-    fill:  #c2c2c2;
+    footer .connections a:hover svg path {
+    fill: #44210d61;
     transition: all 0.2s ease-in-out;}
-      
 
-/*-- ADDING MEDIA QUERIES FOR DIFFERENT DEVICES --*/
-@media (max-width: 600px) {
-    nav {
-      flex-direction: column;
-      align-items: center;
-    }
+    
+    @media ( max-width: 800px) {
+        body {
+            
+            margin: auto 0;
+            font-size: 110%
+        }
 
-    #logo {
-      order: 2;
-      margin-bottom: 10px;
-    }
-
-    nav ul li {
-       display: list-item;
-        margin: 10px;
-    }
-  }
-
-
+            article {
+                width: 90%
+            }
+        }
+    
 
 
 
