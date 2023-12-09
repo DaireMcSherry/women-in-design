@@ -1,5 +1,5 @@
 body {
-    background: #f7f7f7;
+    background: #0e7aa9;
     color: #333;
     font-family: 'Fira Sans', sans-serif; }
 
@@ -27,7 +27,7 @@ img {
 
 /*---- Styling typography ---*/
 h1, h2, blockquote {
-    color: #2cd619; 
+    color: #B24704; 
     font-family: 'Merriweather', serif;
 }
 
