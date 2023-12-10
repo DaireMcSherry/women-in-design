@@ -80,11 +80,12 @@ a:hover {
 /*-- Navigation --*/
 
 nav {
+    position: fixed;
     top: 0;
     left: 0;
     margin: 0;
     width: 100%;
-    background-color: #44210d61;
+    background-color: #3f4d4e;
     padding: 1.5rem 0;
     font-size: 0.75;
 }
