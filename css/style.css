@@ -173,10 +173,9 @@ img {
     position: absolute;
     margin: 2rem 0 2rem 0;
     width: 100%;
-    z-index: 1;
     line-height: 0;
     padding-top: 30px;
-    image: .medium;
+    img: medium;
     width: 250px;
     height: 250px;
 }
