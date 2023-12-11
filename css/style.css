@@ -175,9 +175,9 @@ img {
     width: 100%;
     line-height: 0;
     padding-top: 30px;
-    img: medium;
-    width: 250px;
-    height: 250px;
+    img: large;
+    width: 500px;
+    height: 500px;
 }
 
 div {
