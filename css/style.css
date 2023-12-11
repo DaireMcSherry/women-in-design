@@ -184,6 +184,9 @@ div {
     
 .topimage {
     margin: 0;
+    image: .medium;
+    width: 250px;
+    height: 250px;
 }   
 
 hr {
