@@ -176,6 +176,9 @@ img {
     z-index: 1;
     line-height: 0;
     padding-top: 30px;
+    image: .medium;
+    width: 250px;
+    height: 250px;
 }
 
 div {
@@ -183,10 +186,7 @@ div {
 } 
     
 .topimage {
-    margin: 0;
-    image: .medium;
-    width: 250px;
-    height: 250px;
+    margin: 0; 
 }   
 
 hr {
