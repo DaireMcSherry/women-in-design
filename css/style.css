@@ -165,10 +165,8 @@ table, td {
 
 /*-- images --*/
 
-img{
-    display:block;
-    margin:auto;
-
+.lastimg{
+    width: 50px;
 }
 
  
