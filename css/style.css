@@ -168,11 +168,12 @@ table, td {
 
 
 
-    img{
+     1 img{
         display:table-row;
         margin:1em 0;
         padding:0;
         max-width:100%;
+        scale:"51";
 }
 
 div {
