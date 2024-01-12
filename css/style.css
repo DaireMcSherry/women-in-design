@@ -175,6 +175,14 @@ table, td {
         max-width:100%;
 }
 
+
+
+.mainimg {
+    margin : 4em auto ;
+}
+.kernloose {letter-spacing: 5px;}
+.imgbtm {margin-bottom: 4rem;}
+
 div {
     display: block;
 } 
