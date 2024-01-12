@@ -167,16 +167,15 @@ table, td {
 
 
 
-        img{
-        display:block;
-        margin:1em 0;
-        padding:0;
-        max-width:100%;
-
+ img{
+  display:block;
+  margin:1em 0;
+  padding:0;
+  max-width:100%;
 }  
+  
 
-lastimg{
-    width: 300px
+.lastimage{
     display:block;
     margin:1em 0;
     padding:0;
