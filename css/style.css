@@ -173,7 +173,7 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: fit-content;
+    height: 100vh;
 }
  
 hr {
