@@ -175,10 +175,12 @@ table, td {
 
 }  
 
-.lastimg {
+lastimg{
     width: 300px
+    display:block;
+    margin:1em 0;
+    padding:0;
 }
-
 
 
 .mainimg {
