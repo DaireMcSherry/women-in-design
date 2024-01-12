@@ -169,7 +169,7 @@ table, td {
 
 
      img{
-        display:table-row;
+        display:block;
         margin:1em 0;
         padding:0;
         max-width:100%;
