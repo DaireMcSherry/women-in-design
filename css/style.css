@@ -172,7 +172,7 @@ table, td {
         display:table-row;
         margin:1em 0;
         padding:0;
-        max-width:80%;
+        max-width:100%;
 }
 
 div {
