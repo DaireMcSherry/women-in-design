@@ -165,38 +165,13 @@ table, td {
 
 /*-- images --*/
 
-
-
- img{
-  display:block;
-  margin:1em 0;
-  padding:0;
-  max-width:100%;
-}  
-  
-
-.lastimage{
+img{
     display:block;
-    margin:1em 0;
-    padding:0;
+    margin:auto;
+
 }
 
-
-.mainimg {
-    margin : 4em auto ;
-}
-.kernloose {letter-spacing: 5px;}
-.imgbtm {margin-bottom: 4rem;}
-
-div {
-    display: block;
-} 
-    
-.topimage {
-    margin: 0; 
-    margin-bottom: 4rem;
-}   
-
+ 
 hr {
     margin: 50px 0;
     height: 2px;
