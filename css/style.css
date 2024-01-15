@@ -202,28 +202,6 @@ hr {
 
 /*-- styling in footer --*/
 
-.container {
-    display: grid;
-    grid-template-rows: 100px 100px 100px ;
-    grid-template-columns:100px 100px ;
-
-}
-
-.item-1 {
-    grid grid-row-start: ;1;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end 5;
-
-
-}
-  
-
-
-
-
-
-
 
 
 footer {
