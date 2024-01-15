@@ -144,6 +144,25 @@
 <div class="dark" >
     <section >
 
+        <style>
+            .left, .right {
+              float: left;
+              width: 20%; /* The width is 20%, by default */
+            }
+            
+            .main {
+              float: left;
+              width: 60%; /* The width is 60%, by default */
+            }
+            
+            /* Use a media query to add a breakpoint at 800px: */
+            @media screen and (max-width: 800px) {
+              .left, .main, .right {
+                width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+              }
+            }
+            </style>
+            
         <h2>Other notable designers</h2>
         
         <li> <li><a href="https://bantjes.com/about" target="_blank">Marian Bantjes <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
